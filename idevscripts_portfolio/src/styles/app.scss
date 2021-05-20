@@ -1,0 +1,9 @@
+//Main App Style
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Partial Style Import
+@import './aboutme';

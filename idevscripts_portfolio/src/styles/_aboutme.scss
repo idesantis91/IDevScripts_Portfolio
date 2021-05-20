@@ -1,0 +1,19 @@
+.main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #0F2027,#203A43,#2C5364);
+    display: flex;
+    //vertical
+    align-items: center;
+    //horizontal
+    justify-content: center;
+}
+
+.glass{
+    background: linear-gradient(to right bottom, 
+    rgba(255,255,255,0.6), 
+    rgba(255,255,255,0.1)
+    );
+    height: 80vh;
+    width: 60%;
+    border-radius: 2rem;
+}
