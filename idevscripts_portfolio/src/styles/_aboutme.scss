@@ -9,6 +9,7 @@
 }
 
 .glass{
+    display: flex;
     background: linear-gradient(to right bottom, 
     rgba(255,255,255,0.6), 
     rgba(255,255,255,0.1)
@@ -16,4 +17,46 @@
     height: 80vh;
     width: 60%;
     border-radius: 2rem;
+
+    // p{
+    //     color: white;
+    //     font-weight: bold;
+    //     font-size: 1.5rem;
+    //     font-style: italic;
+    // }
 }
+
+.aboutSection{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 2rem;
+    background: linear-gradient(to right bottom, 
+    rgba(255,255,255,0.3), 
+    rgba(255,255,255,0.05)
+    );
+    backdrop-filter: blur(2rem);
+    p{
+        padding-top: 1rem;
+    }
+}
+
+.projects{
+    flex:2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h3{
+        margin-top: 2rem;
+    }
+}
+
+img{
+    border-radius: 4rem;
+    width: 50px;
+    height:50px;
+    margin-bottom: 1rem;
+ }
