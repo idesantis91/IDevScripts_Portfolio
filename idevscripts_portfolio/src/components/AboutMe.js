@@ -1,6 +1,5 @@
 import React from 'react';
 import Moment from 'react-moment';
-import profile from '../img/profile.png';
 //Animations
 import { motion } from "framer-motion";
 //Icons
@@ -28,7 +27,6 @@ const AboutMe = () => {
              <div className="glass">
                 <div className="aboutSection">
                     <div className="user">
-                        {/* <img src={profile} alt=""/> */}
                         <h3>Isaiah DeSantis</h3>
                         <p>Software Engineer</p>
                     </div>
