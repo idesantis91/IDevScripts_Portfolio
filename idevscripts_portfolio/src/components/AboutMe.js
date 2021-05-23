@@ -1,4 +1,5 @@
 import React from 'react';
+import Moment from 'react-moment';
 import profile from '../img/profile.png';
 //Animations
 import { motion } from "framer-motion";
@@ -10,17 +11,24 @@ import { ImMail } from "react-icons/im";
 
 const AboutMe = () => {
 
-
+    //Date and Time 
+    const today = new Date();
+    const date = today.toLocaleDateString();
 
     return(
         <div className="main">
             <div className="devName">
                 <h3>IDevScripts</h3>
             </div>
+            <div className="date-container">
+            <Moment id='dates' format="dddd, MMMM Do YYYY" titleFormat="D MM YYYY" withTitle>
+                {date}
+            </Moment>
+            </div>
              <div className="glass">
                 <div className="aboutSection">
                     <div className="user">
-                        <img src={profile} alt=""/>
+                        {/* <img src={profile} alt=""/> */}
                         <h3>Isaiah DeSantis</h3>
                         <p>Software Engineer</p>
                     </div>
@@ -37,6 +45,7 @@ const AboutMe = () => {
                     <div className="education">
                         <h3>Education</h3>
                         <p>BS in Computer Science- Cheyney University</p>
+                        <p>GPA(3.65)</p>
                     </div>
                 </div>
                 <div className="projects">

@@ -37,9 +37,13 @@
     p{
         padding-top: 1rem;
         font-family: 'Poppins', sans-serif;
+        color: darkgrey;
+        font-weight: bold;
+        font-size: 1rem;
     }
     h3{
         font-family: 'Poppins', sans-serif;
+        color: #69747C;
     }
 }
 
@@ -53,6 +57,7 @@
     h2{
         margin-top: 2rem;
         font-family: 'Poppins', sans-serif;
+        color: #69747C;
     }
 }
 
@@ -82,9 +87,13 @@
             padding-top: 1rem;
             font-family: 'Poppins', sans-serif;
             font-size: small;
+            font-style: italic ;
+            font-weight: 100;
+            color: darkgray;       
         }
         h3{
             margin-top: .5rem;
+            color:#69747C; 
         }
       }
 }
@@ -149,9 +158,32 @@ img{
         padding-top: 1.7rem;
         font-family: 'Montserrat Alternates', sans-serif;        
         font-size: x-large;
-        color: gray;
+        color: #69747C;
         opacity: 0.7;
     }
  }
 
- 
+.date-container{
+    position: absolute;
+    width: 14rem;
+    align-items: center;
+    padding-top: 1.6rem;   
+    height: 5rem;
+    border-radius: 2rem;
+    text-align: center;  
+    background: linear-gradient(to right bottom, 
+        rgba(255,255,255,0.6), 
+        rgba(255,255,255,0.1)
+        ); 
+    margin-top: -43em;
+    margin-right: -75em;
+
+    #dates{
+       font-size: large;
+       font-weight: bold;
+       font-family: 'Poppins', sans-serif;
+       color: #69747C;
+    }
+}
+
+
